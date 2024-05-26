@@ -6,10 +6,10 @@ public class Main {
         int height =12;
         int width =13;
         int price =40;
-        int tax1 = 5;
+        int tax2 = 5;
 
         int image = height + width;
-        int amount = price + tax1;
+        int amount = price + tax2;
         image +=1;
         amount -=2;
         System.out.println(amount>image);
